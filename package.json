@@ -1,6 +1,7 @@
 {
-  "name": "npm-bun-tsup-library",
-  "description": "My Library template",
+  "name": "plywright-cpupro-reporter",
+  "version": "0.0.0",
+  "description": "CPUpro reporter for playwright",
   "type": "module",
   "main": "dist/index.cjs",
   "module": "dist/index.mjs",
@@ -24,10 +25,8 @@
     },
     "./package.json": "./package.json"
   },
-  "keywords": [
-    "cool",
-    "package"
-  ],
+  "keywords": ["cool", "package"],
+  "license": "MIT",
   "devDependencies": {
     "@changesets/cli": "^2.26.2",
     "bun-types": "latest",
@@ -35,7 +34,9 @@
     "typescript": "^5.2.2"
   },
   "peerDependencies": {
-    "typescript": "^5.0.0"
+    "@playwright/test": "^1.44.0"
   },
-  "license": "MIT"
+  "dependencies": {
+    "cpupro": "^0.5.0"
+  }
 }
