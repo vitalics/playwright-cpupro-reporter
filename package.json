@@ -1,5 +1,5 @@
 {
-  "name": "plywright-cpupro-reporter",
+  "name": "playwright-cpupro-reporter",
   "version": "0.0.1",
   "description": "CPUpro reporter for playwright",
   "type": "module",
