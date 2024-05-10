@@ -1,6 +1,6 @@
 {
   "name": "playwright-cpupro-reporter",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "description": "CPUpro reporter for playwright",
   "type": "module",
   "main": "dist/index.cjs",
