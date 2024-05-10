@@ -1,6 +1,6 @@
 {
   "name": "plywright-cpupro-reporter",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "CPUpro reporter for playwright",
   "type": "module",
   "main": "dist/index.cjs",
@@ -25,7 +25,10 @@
     },
     "./package.json": "./package.json"
   },
-  "keywords": ["cool", "package"],
+  "keywords": [
+    "cool",
+    "package"
+  ],
   "license": "MIT",
   "devDependencies": {
     "@changesets/cli": "^2.26.2",
